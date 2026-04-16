@@ -1,0 +1,13 @@
+.vermelho {
+	color: #FF1F44;
+}
+
+th, td {
+  padding: 7px;
+}
+
+table, th, td {
+	border: 1px solid;
+	border-collapse: collapse;
+}
+

@@ -8,5 +8,4 @@ import play.db.jpa.Model;
 public class Projeto extends Model {
 	public String nome;
 	public String descricao;
-
 }

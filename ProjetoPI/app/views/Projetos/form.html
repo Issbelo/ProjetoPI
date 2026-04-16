@@ -1,7 +1,6 @@
 #{extends 'main.html' /}
 #{set title:'Inicio' /}
 
-
 <h1> Cadastro de Projeto </h1>
 <hr/>
   <form action="/projetos/salvar">
@@ -12,3 +11,5 @@
 
   <input type="submit" value="Cadastrar"/>
 </form>
+
+<a href="@{Projetos.listar}">Lista de Projetos</a>

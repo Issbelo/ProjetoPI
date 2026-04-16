@@ -1,0 +1,22 @@
+#{extends 'main.html' /}
+#{set title:'Inicio' /}
+
+
+<h1> Lista de projetos </h1>
+   <table>
+   <tr>
+   <th>Nome</th>
+   <th>Descrição</th>
+   </tr>
+#{list items:projetos, as:'projeto'}
+<tr>
+<td>${projeto.nome}</td>
+<td>${projeto.descricao}</td>
+</tr>
+#{/list}
+</table>
+#{else}
+   Nenhum projeto listado.
+#{/else}
+
+<a href="@{Projetos.form}">Novo Projeto</a>
